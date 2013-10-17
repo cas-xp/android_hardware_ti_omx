@@ -1,4 +1,3 @@
-ifeq ($(OMAP_ENHANCEMENT),true)
 ifeq ($(HARDWARE_OMX),true)
 ifeq ($(TARGET_BOARD_PLATFORM),omap4)
 LOCAL_PATH := $(call my-dir)
@@ -161,4 +160,3 @@ endif
 
 endif
 endif
-endif #OMAP_ENHANCEMENT
